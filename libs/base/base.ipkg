@@ -1,0 +1,14 @@
+package base
+version = 0.6.0
+
+opts = "--ignore-missing-ipkg -Wno-shadowing"
+
+modules = Control.Function,
+
+          Decidable.Equality,
+          Decidable.Equality.Core,
+
+          Language.Reflection,
+          Language.Reflection.TT,
+          Language.Reflection.TTImp
+
